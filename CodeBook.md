@@ -23,12 +23,12 @@ variables from the time and frequency domain.
 
 ## Variables
 
-activity: charcter - activitiy decription
-subject: integer - subject number 
-tBodyAccMeanX / tBodyAccMeanY / tBodyAccMeanZ: numeric - Mean value (3 axis) of body acceleration in mili G
-tBodyAccStdX / tBodyAccStdY / tBodyAccStdZ: numeric - Std deviation (3 axis) of body acceleration in mili G
-tGravityAccMeanX / tGravityAccMeanY / tGravityAccMeanZ: numeric - Mean value (3 axis) of gravity in mili G
-tGravityAccStdX / tGravityAccStdY / tGravityAccStdZ: numeric - Std deviation (3 axis) of gravity in mili G
+activity: charcter - activitiy decription   
+subject: integer - subject number   
+tBodyAccMeanX / tBodyAccMeanY / tBodyAccMeanZ: numeric - Mean value (3 axis) of body acceleration in mili G   
+tBodyAccStdX / tBodyAccStdY / tBodyAccStdZ: numeric - Std deviation (3 axis) of body acceleration in mili G   
+tGravityAccMeanX / tGravityAccMeanY / tGravityAccMeanZ: numeric - Mean value (3 axis) of gravity in mili G   
+tGravityAccStdX / tGravityAccStdY / tGravityAccStdZ: numeric - Std deviation (3 axis) of gravity in mili G   
 tBodyAccJerkMeanX / tBodyAccJerkMeanY / tBodyAccJerkMeanZ: numeric - Mean value (3 axis) of body acceleration in mili G (Jerk signal)
 tBodyAccJerkStdX / tBodyAccJerkStdY / tBodyAccJerkStdZ: numeric - Std deviation (3 axis) of body acceleration in mili G (Jerk signal)
 tBodyGyroMeanX / tBodyGyroMeanY / tBodyGyroMeanZ: numeric - Mean value (3 axis) of angle velocity 
