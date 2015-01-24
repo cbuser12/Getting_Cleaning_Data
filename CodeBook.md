@@ -23,7 +23,7 @@ variables from the time and frequency domain.
 
 ## Variables
 
-activity: charcter - activitiy decription   
+activity: factor - activitiy decription (levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)     
 subject: integer - subject number   
 tBodyAccMeanX / tBodyAccMeanY / tBodyAccMeanZ: numeric - Mean value (3 axis) of body acceleration in mili G   
 tBodyAccStdX / tBodyAccStdY / tBodyAccStdZ: numeric - Std deviation (3 axis) of body acceleration in mili G   
