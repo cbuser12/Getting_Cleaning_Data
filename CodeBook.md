@@ -1,4 +1,4 @@
-### Code Book
+# Code Book
 
 ## Original Data
 
@@ -25,44 +25,44 @@ variables from the time and frequency domain.
 
 activity: charcter - activitiy decription
 subject: integer - subject number 
-tBodyAccMeanX / tBodyAccMeanY / tBodyAccMeanZ: numeric
-tBodyAccStdX / tBodyAccStdY / tBodyAccStdZ
-tGravityAccMeanX / tGravityAccMeanY / tGravityAccMeanZ
-tGravityAccStdX / tGravityAccStdY / tGravityAccStdZ
-tBodyAccJerkMeanX / tBodyAccJerkMeanY / tBodyAccJerkMeanZ
-tBodyAccJerkStdX / tBodyAccJerkStdY / tBodyAccJerkStdZ
-tBodyGyroMeanX / tBodyGyroMeanY / tBodyGyroMeanZ
-tBodyGyroStdX / tBodyGyroStdY / tBodyGyroStdZ
-tBodyGyroJerkMeanX / tBodyGyroJerkMeanY / tBodyGyroJerkMeanZ
-tBodyGyroJerkStdX / tBodyGyroJerkStdY / tBodyGyroJerkStdZ
-tBodyAccMagMean
-tBodyAccMagStd
-tGravityAccMagMean
-tGravityAccMagStd
-tBodyAccJerkMagMean
-tBodyAccJerkMagStd
-tBodyGyroMagMean
-tBodyGyroMagStd
-tBodyGyroJerkMagMean
-tBodyGyroJerkMagStd
-fBodyAccMeanX / fBodyAccMeanY / fBodyAccMeanZ
-fBodyAccStdX / fBodyAccStdY / fBodyAccStdZ
-fBodyAccMeanFreqX / fBodyAccMeanFreqY / fBodyAccMeanFreqZ
-fBodyAccJerkMeanX / fBodyAccJerkMeanY / fBodyAccJerkMeanZ
-fBodyAccJerkStdX / fBodyAccJerkStdY / fBodyAccJerkStdZ
-fBodyAccJerkMeanFreqX / fBodyAccJerkMeanFreqY / fBodyAccJerkMeanFreqZ
-fBodyGyroMeanX / fBodyGyroMeanY / fBodyGyroMeanZ
-fBodyGyroStdX / fBodyGyroStdY / fBodyGyroStdZ
-fBodyGyroMeanFreqX / fBodyGyroMeanFreqY / fBodyGyroMeanFreqZ
-fBodyAccMagMean
-fBodyAccMagStd
-fBodyAccMagMeanFreq
-fBodyBodyAccJerkMagMean
-fBodyBodyAccJerkMagStd
-fBodyBodyAccJerkMagMeanFreq
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagStd
-fBodyBodyGyroMagMeanFreq
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagStd
-fBodyBodyGyroJerkMagMeanFreq
+tBodyAccMeanX / tBodyAccMeanY / tBodyAccMeanZ: numeric - Mean value (3 axis) of body acceleration in mili G
+tBodyAccStdX / tBodyAccStdY / tBodyAccStdZ: numeric - Std deviation (3 axis) of body acceleration in mili G
+tGravityAccMeanX / tGravityAccMeanY / tGravityAccMeanZ: numeric - Mean value (3 axis) of gravity in mili G
+tGravityAccStdX / tGravityAccStdY / tGravityAccStdZ: numeric - Std deviation (3 axis) of gravity in mili G
+tBodyAccJerkMeanX / tBodyAccJerkMeanY / tBodyAccJerkMeanZ: numeric - Mean value (3 axis) of body acceleration in mili G (Jerk signal)
+tBodyAccJerkStdX / tBodyAccJerkStdY / tBodyAccJerkStdZ: numeric - Std deviation (3 axis) of body acceleration in mili G (Jerk signal)
+tBodyGyroMeanX / tBodyGyroMeanY / tBodyGyroMeanZ: numeric - Mean value (3 axis) of angle velocity 
+tBodyGyroStdX / tBodyGyroStdY / tBodyGyroStdZ: numeric - Std deviation (3 axis) of  angle velocity
+tBodyGyroJerkMeanX / tBodyGyroJerkMeanY / tBodyGyroJerkMeanZ: numeric - Mean value (3 axis) of angle velocity (Jerk signal)
+tBodyGyroJerkStdX / tBodyGyroJerkStdY / tBodyGyroJerkStdZ: numeric - Std deviation (3 axis) of angle velocity (Jerk signal)
+tBodyAccMagMean: numeric - Mean value of magnitude of body acceleration in mili G
+tBodyAccMagStd: numeric - Std deviation of magnitude of body acceleration in mili G
+tGravityAccMagMean: numeric - Mean value of magnitude of of gravity in mili G
+tGravityAccMagStd: numeric - Std deviation of magnitude of of gravity in mili G
+tBodyAccJerkMagMean: numeric - Mean value of magnitude of body acceleration in mili G (Jerk signal)
+tBodyAccJerkMagStd: numeric - Std deviation of magnitude of body acceleration in mili G (Jerk signal)
+tBodyGyroMagMean: numeric - Mean value of magnitude of angle velocity 
+tBodyGyroMagStd: numeric - Std deviation of magnitude of angle velocity 
+tBodyGyroJerkMagMean: numeric - Mean value of magnitude of angle velocity (Jerk signal)
+tBodyGyroJerkMagStd: numeric - Std deviation of magnitude of angle velocity (Jerk signal)
+fBodyAccMeanX / fBodyAccMeanY / fBodyAccMeanZ: numeric - Mean value (3 axis) of Fast Fourier Transform of body acceleration in mili G
+fBodyAccStdX / fBodyAccStdY / fBodyAccStdZ: numeric - Std deviation (3 axis) of Fast Fourier Transform of body acceleration in mili G
+fBodyAccMeanFreqX / fBodyAccMeanFreqY / fBodyAccMeanFreqZ: numeric - Mean value (3 axis) of Fast Fourier Transform of body acceleration frequency in mili G
+fBodyAccJerkMeanX / fBodyAccJerkMeanY / fBodyAccJerkMeanZ: numeric - Mean value (3 axis) of Fast Fourier Transform of body acceleration in mili G (Jerk Signal)
+fBodyAccJerkStdX / fBodyAccJerkStdY / fBodyAccJerkStdZ: numeric - Std deviation (3 axis) of Fast Fourier Transform of body acceleration in mili G (Jerk Signal)
+fBodyAccJerkMeanFreqX / fBodyAccJerkMeanFreqY / fBodyAccJerkMeanFreqZ: numeric - Mean value (3 axis) of Fast Fourier Transform of body acceleration frequency in mili G (Jerk Signal)
+fBodyGyroMeanX / fBodyGyroMeanY / fBodyGyroMeanZ: numeric - Mean value (3 axis) of Fast Fourier Transform of angle velocity
+fBodyGyroStdX / fBodyGyroStdY / fBodyGyroStdZ: numeric - Std deviation (3 axis) of Fast Fourier Transform of angle velocity
+fBodyGyroMeanFreqX / fBodyGyroMeanFreqY / fBodyGyroMeanFreqZ: numeric - Mean value (3 axis) of Fast Fourier Transform of angle velocity frequency
+fBodyAccMagMean: numeric - Mean value of Fast Fourier Transform of magnitude of body acceleration in mili G
+fBodyAccMagStd: numeric - Std deviation of Fast Fourier Transform of magnitude of body acceleration in mili G
+fBodyAccMagMeanFreq: numeric - Mean value of Fast Fourier Transform frequency
+fBodyBodyAccJerkMagMean: numeric - Mean value of Fast Fourier Transform of magnitude of body acceleration in mili G (Jerk Signal)
+fBodyBodyAccJerkMagStd: numeric - Std deviation of Fast Fourier Transform of magnitude of body acceleration in mili G (Jerk Signal)
+fBodyBodyAccJerkMagMeanFreq: numeric - Mean value of Fast Fourier Transform of frequency (Jerk Signal)
+fBodyBodyGyroMagMean: numeric - Mean value of Fast Fourier Transform of angle velocity 
+fBodyBodyGyroMagStd: numeric - Std deviation of Fast Fourier Transform of angle velocity 
+fBodyBodyGyroMagMeanFreq: numeric - Mean value of Fast Fourier Transform of angle velocity frequency
+fBodyBodyGyroJerkMagMean: numeric - Mean value of Fast Fourier Transform of angle velocity (Jerk Signal)
+fBodyBodyGyroJerkMagStd: numeric - Std deviation of Fast Fourier Transform of angle velocity (Jerk Signal)
+fBodyBodyGyroJerkMagMeanFreq: numeric - Mean value of Fast Fourier Transform of angle velocity frequency (Jerk Signal)
